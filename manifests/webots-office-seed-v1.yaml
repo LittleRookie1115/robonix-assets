@@ -1,0 +1,30 @@
+schema_version: 1
+id: webots-office-seed-v1
+description: Minimal Webots cache used by the Robonix Tiago office example.
+
+release:
+  repository: syswonder/robonix-assets
+  tag: webots-office-seed-v1
+  asset: webots-office-seed-v1.tar.gz
+  url: https://github.com/syswonder/robonix-assets/releases/download/webots-office-seed-v1/webots-office-seed-v1.tar.gz
+  default_mirror: https://ghfast.top/
+
+integrity:
+  sha256: 06383278c6e3c2cc9ed647c0e3bbfbb8e2c3fddcceb2d8a5ca7b8925943c0d65
+  size_bytes: 25070616
+
+archive:
+  format: tar.gz
+  root: assets/
+  files: 97
+  install_directory: ~/.cache/Cyberbotics/Webots/
+
+compatibility:
+  application: Webots
+  tested_runtime: R2025a
+  consumer: Robonix Tiago office example
+
+license:
+  owner: Cyberbotics Ltd.
+  terms: https://cyberbotics.com/webots_assets_license
+  restriction: Original formats are preserved and the assets may be used only with Webots.
