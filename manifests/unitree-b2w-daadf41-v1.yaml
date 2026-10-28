@@ -1,0 +1,47 @@
+schema_version: 1
+id: unitree-b2w-daadf41-v1
+description: Unitree B2-W visual meshes and separately generated visual URDF.
+publication_status: pending_publisher
+
+release:
+  repository: syswonder/robonix-assets
+  tag: unitree-b2w-daadf41-v1
+  asset: unitree-b2w-visuals-daadf41.tar.gz
+  url: https://github.com/syswonder/robonix-assets/releases/download/unitree-b2w-daadf41-v1/unitree-b2w-visuals-daadf41.tar.gz
+  default_mirror: https://ghfast.top/
+
+integrity:
+  sha256: fa4579b821f0fbac8376c6bcf0f5ce339a7f73b03b54ecb835f198f1276f5751
+  size_bytes: 18316148
+
+archive:
+  format: tar.gz
+  roots: [meshes, licenses]
+  files: 18
+  meshes: 17
+
+generated_urdf:
+  asset: unitree_b2w_visual.urdf
+  size_bytes: 18032
+  sha256: 3798cc5499c0f90ab1cbe8fd80dd17f4624ba99fdf82b3fdbcf76c0de65abe0b
+
+files_manifest:
+  asset: unitree-b2w-visuals-daadf41.files.json
+  size_bytes: 3327
+  sha256: 83fc86dfe6389db602631c3758b467febdb3f9df040fa64b12460d996e6b1167
+
+deployment_manifest:
+  asset: model-assets.json
+  url_policy: Canonical GitHub release URL; consumer applies the default mirror.
+
+source:
+  repository: https://github.com/unitreerobotics/unitree_ros
+  revision: daadf41ee9afce8f90fdc09a98506012691fa122
+  package: robots/b2w_description
+  lock: models/unitree_b2w/source-lock.json
+  provenance: models/unitree_b2w/README.md
+
+license:
+  spdx: BSD-3-Clause
+  owner: HangZhou YuShu TECHNOLOGY CO.,LTD. ("Unitree Robotics")
+  archive_notice: licenses/UNITREE_ROS_LICENSE-BSD-3-CLAUSE.txt

@@ -2,3 +2,7 @@
 *.zip
 *.sha256
 .DS_Store
+build/
+dist/
+.cache/
+__pycache__/
